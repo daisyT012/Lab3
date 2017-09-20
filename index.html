@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+    <head>
+        <title>Lab 3</title>
+		<meta charset="utf-8" />
+  		<meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" media="screen" href="screen.css" />
+    </head>
+	<body>
+		<div id="form">
+		<h1> Hello!</h1>
+		<form method ="POST">
+        <fieldset name="Info">
+			<legend>Sign Up For Weather Updates!</legend>	
+				<!--3 types of fields: email,tel,date-->
+				<p>
+					<label>Email Address: <input type="email" name="email_field"></label>
+				</p>
+				<p>
+					<label>Phone Number: <input type="tel" name="phone_field"></label>
+				</p>
+				<p>
+					<label>Date of Birth: <input type="date" id="birthday" name="birthday" required></label>
+				</p>
+				<!--Hidden field-->
+				<p>
+					<input type="hidden" name="hidden_field">
+				</p>
+        </fieldset>
+			<!--Submit Button -->
+		    <input type ="submit" value="Submit">
+		</form>
+		<!--Footer-->
+		<footer>
+			<p>Created by Daisy Tellez</p>
+		</footer>
+		</div>
+	</body>
+</html>
